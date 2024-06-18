@@ -57,6 +57,7 @@ header {
 
 .fields {
     display: flex;
+    gap: 40px;
 }
 
 header {
@@ -73,7 +74,7 @@ a:hover {
     font-style: italic;
 }
 
-footer {
+footer, li {
     font-size: 0.8rem;
 }
 
@@ -83,11 +84,15 @@ main {
 
 main .mid {
     background-color: white;
-    padding-left: 30px;
+    padding: 20px 0;
 }
 
-main .top, main .bot {
-    padding-left: 30px;
+main .top, main .mid, main .bot {
+    padding-left: 40px;
+}
+
+.mid p {
+    margin: 12px 0 0 0;
 }
 
 p.big-bold {
@@ -116,4 +121,21 @@ button:active {
 ul {
     list-style-type: none;
     padding: 0px;
+}
+
+li {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
