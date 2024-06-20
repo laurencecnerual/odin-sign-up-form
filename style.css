@@ -53,17 +53,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgba(0,0,0,0.8);
+    width: 33vw;
+    padding: 1.2rem 0;
 }
 
 .fields {
     display: flex;
     gap: 40px;
-}
-
-header {
-    background-color: rgba(0,0,0,0.8);
-    width: 33vw;
-    padding: 1.2rem 0;
 }
 
 a {
