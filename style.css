@@ -19,7 +19,6 @@ aside {
     background-image: url('./img/plants-small.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    justify-content: space-around;
     align-items: center;
     color: white;
 }
@@ -56,6 +55,7 @@ header {
     background-color: rgba(0,0,0,0.8);
     width: 33vw;
     padding: 1.2rem 0;
+    margin: auto 0;
 }
 
 .fields {
@@ -73,6 +73,11 @@ a:hover {
 
 footer, li {
     font-size: 0.8rem;
+}
+
+footer {
+    margin-top: auto;
+    margin-bottom: 10px;
 }
 
 main {
